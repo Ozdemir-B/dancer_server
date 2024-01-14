@@ -93,4 +93,4 @@ with gr.Blocks() as demo:
     )
 
 
-demo.launch(share=True)
+demo.launch(share=True,server_name="0.0.0.0",srerver_port=7878)
