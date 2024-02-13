@@ -87,6 +87,7 @@ with gr.Blocks() as demo:
             ["inputs/applications/source_image/dalle2.jpeg", "inputs/applications/driving/densepose/running2.mp4"],
             ["inputs/applications/source_image/dalle8.jpeg", "inputs/applications/driving/densepose/dancing2.mp4"],
             ["inputs/applications/source_image/multi1_source.png", "inputs/applications/driving/densepose/multi_dancing.mp4"],
+            ["inputs/applications/source_image/dalle8.jpeg", "inputs/applications/driving/densepose/dance1_out.mp4"]
         ],
         inputs=[reference_image, motion_sequence],
         outputs=animation,
